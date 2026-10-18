@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ReachInbox — Email Job Scheduler
 
 A full-stack email scheduling system that accepts email requests, schedules them for future delivery, and processes them asynchronously using BullMQ and Redis. The application provides a web dashboard for scheduling email campaigns, importing contacts, and monitoring email job statuses.
