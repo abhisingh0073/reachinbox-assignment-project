@@ -1,5 +1,6 @@
 
 import type { Request, Response, NextFunction } from "express";
+import { success } from "zod";
 
 export function requireAuth(
   req: Request,
@@ -8,7 +9,7 @@ export function requireAuth(
 ) {
   if (!req.isAuthenticated() || !req.user) {
     return res.status(401).json({
-      error: "Authentication required",
+      error: "Unauthorized. Please log in.",
     });
   }
 
