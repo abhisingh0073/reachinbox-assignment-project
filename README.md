@@ -325,22 +325,7 @@ Actual durability depends on Redis persistence, queue configuration, and correct
 - Check `NEXT_PUBLIC_API_URL`.
 - Inspect browser developer tools for network errors.
 
-## Future Improvements
 
-- Production SMTP provider integration
-- Campaign analytics and reporting
-- Email templates and personalization
-- Enhanced retry and dead-letter handling
-- Delivery tracking through provider webhooks
-- Authentication and user-specific campaign management
-
-## License
-
-Developed as a full-stack email scheduling assignment. Specify a license if the project is distributed under an open-source license.
-
-## Final checks before pushing to GitHub
-
-Run these commands from the project root:
 
 ```
 git status --short
